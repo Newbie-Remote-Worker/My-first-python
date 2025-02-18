@@ -5,7 +5,7 @@ Semua Sintakis bahasa pemrograman terdiri dari 3 yaitu:
 3. Pengulangan: Mengulang langkah bila kondisi terpenuhi
 """
 
-#sekuensial
+# 1. sekuensial
 print('Mom said, "go to grocery store"')
 print('Acong reply, "oke, what do i do?"')
 print('Mom said, "buy a bottle of milk')
@@ -16,7 +16,7 @@ print('Acong searching for the eggs')
 print('Acong checked the price of eggs, he still had enough money')
 print('Acong goes shopping')
 
-# Percabangan
+# 2. Percabangan
 bottle_of_milk_in_grocery = 20
 eggs_in_grocery = 100
 
@@ -35,4 +35,3 @@ else:
     print('Acong did not bought btl and btr')
 
 print('came home and gave the groceries to his mom')
-Done
