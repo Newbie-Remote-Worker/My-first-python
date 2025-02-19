@@ -25,6 +25,6 @@ while total_reread_books < total_books:
 if have_been_read_and_understanding_books == total_books:
     print('all books have been read and understand Mom')
 else:
-    print(f'not all books i can understand, i only can understand {have_been_read_and_understanding_books}')
+    print(f'not all books i can understand, i only can understand {have_been_read_and_understanding_books} books')
 
 
