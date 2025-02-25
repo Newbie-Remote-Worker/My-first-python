@@ -5,7 +5,7 @@ Semua Sintakis bahasa pemrograman terdiri dari 3 yaitu:
 3. Pengulangan: Mengulang langkah bila kondisi terpenuhi
 """
 
-# 3. Pengulangan
+# 3. Pengulangan For
 
 all_books = 10
 print('mom said, "read all books"')
