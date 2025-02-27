@@ -49,7 +49,7 @@ print(book)
 
 # Menambah Elemen dalam Data List (Push)
 
-print('\nAdd new book of books_list')
+print('\nAdd new book of books_list using (APPEND)')
 books_list = ['Deadly 7 Sins','Atomic habits','Law of Power']
 print('\nPush +1 book')
 books_list.append('Art of not give a fuck')
@@ -58,16 +58,24 @@ for i in range(0, len(books_list)):
 
 # Menghapus Elemen dari Data List sesuai angka yang ditentukan (Pop)
 
-print('\nDelete book of book_list')
+print('\nDelete book of book_list using (POP)')
 print('\nPop -1 book')
-books_list = ['Deadly 7 Sins','Atomic habits','Law of Power']
+books_list = ['Deadly 7 Sins','Atomic habits','Law of Power','Art of not give a fuck']
 books_list.pop(-1)
 for i in range(0, len(books_list)):
     print(books_list[i])
 
-print('\nDelete book of book_list')
+print('\nDelete book of book_list using (POP)')
 print('\nPop -2 book')
-books_list = ['Deadly 7 Sins','Atomic habits','Law of Power']
+books_list = ['Deadly 7 Sins','Atomic habits','Law of Power','Art of not give a fuck']
 books_list.pop(-2)
 for i in range(0, len(books_list)):
     print(books_list[i])
+
+# Menghapus Elemen dari Data List sesuai angka yang ditentukan (Delete)
+
+print('\nDelete book of book_list using (DEL)')
+books_list = ['Deadly 7 Sins','Atomic habits','Law of Power','Art of not give a fuck']
+del books_list[0]
+for i in range(0, len(books_list)):
+    print(books_list [i])
