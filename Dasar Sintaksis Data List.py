@@ -84,21 +84,21 @@ for i in range(0, len(books_list)):
 
 print('\nDelete all book of using (Delete Comperhension)')
 books_list = ['Deadly 7 Sins','Atomic habits','Law of Power','Raja Tempe','Madilog','Gerpolek']
-del books_list[:] #Start:End
+del books_list[:] #START:END
 print('All books have been deleted')
 for i in range(0, len(books_list)):
     print(books_list[i])
 
 print('\nDelete some book of book_list using (Delete Comperhension)')
 books_list = ['Deadly 7 Sins','Atomic habits','Law of Power','Raja Tempe','Madilog','Gerpolek']
-del books_list[0:2] #Start:End
+del books_list[0:2] #START:END
 print('Some books have been deleted')
 for i in range(0, len(books_list)):
     print(books_list[i])
 
 print('\nDelete some book of book_list using (Delete Comperhension)')
 books_list = ['Deadly 7 Sins','Atomic habits','Law of Power','Raja Tempe','Madilog','Gerpolek']
-del books_list[0:-2] #Start:End
+del books_list[0:-2] #START:END
 print('Some books have been deleted')
 for i in range(0, len(books_list)):
     print(books_list[i])
@@ -107,7 +107,7 @@ for i in range(0, len(books_list)):
 
 print('\nDelete some book of using (Delete Comperhension with Step)')
 books_list = ['Deadly 7 Sins','Atomic habits','Law of Power','Raja Tempe','Madilog','Gerpolek']
-del books_list[0::2] #Start:End:sTEP
+del books_list[0::2] #START:END:STEP
 print('Some books have been deleted')
 for i in range(0, len(books_list)):
     print(books_list[i])
