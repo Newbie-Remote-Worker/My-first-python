@@ -10,7 +10,7 @@ print('proces all with for in')
 for book in books_list:
     print (book)
 
-# Memulai Elemen dari urutan yang ditentukan
+# Memulai Elemen dari angka yang ditentukan
 
 print('\nShow all books list on some index')
 print(books_list[0])
@@ -47,25 +47,26 @@ for i in range(0, len(books_list)):
 print('\nReappear the book')
 print(book)
 
+# Menambah Elemen dalam Data List (Push)
 
-# Menambah Elemen dalam Data List
-
-print('\nAdd elemen of books_list')
+print('\nAdd new book of books_list')
 books_list = ['Deadly 7 Sins','Atomic habits','Law of Power']
-print('\nAdd 1 new book')
-books_list.append('Madilog')
+print('\nPush +1 book')
+books_list.append('Art of not give a fuck')
 for i in range(0, len(books_list)):
     print(books_list [i])
 
-# Menghapus Elemen dari Data List
+# Menghapus Elemen dari Data List sesuai angka yang ditentukan (Pop)
 
-print('\nPop -1')
+print('\nDelete book of book_list')
+print('\nPop -1 book')
 books_list = ['Deadly 7 Sins','Atomic habits','Law of Power']
 books_list.pop(-1)
 for i in range(0, len(books_list)):
     print(books_list[i])
 
-print('\nPop -2')
+print('\nDelete book of book_list')
+print('\nPop -2 book')
 books_list = ['Deadly 7 Sins','Atomic habits','Law of Power']
 books_list.pop(-2)
 for i in range(0, len(books_list)):
