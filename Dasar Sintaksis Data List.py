@@ -28,19 +28,45 @@ print('\nShow all books list wigh for in range')
 for i in range(1, len(books_list)):
     print(books_list [i])
 
-# Menambah Eelemen dalam Data List
+# Mengganti Elemen dalam Data List
 
-print('\nBring back value of books_list')
+print('\nReplace second book with Micro Habits')
+books_list = ['Deadly 7 Sins','Atomic habits','Law of Power']
+books_list [1] = 'Micro habits'
+for i in range(len (books_list)):
+    print(books_list[i])
+
+# Mengambil Elemen dan memunculkan kembali Elemen yang sudah diambil dari Data List
+
+print('\nTake out second book')
+books_list = ['Deadly 7 Sins','Atomic habits','Law of Power']
+book = books_list.pop(2)
+for i in range(0, len(books_list)):
+    print(books_list[i])
+
+print('\nReappear the book')
+print(book)
+
+
+# Menambah Elemen dalam Data List
+
+print('\nAdd elemen of books_list')
 books_list = ['Deadly 7 Sins','Atomic habits','Law of Power']
 print('\nAdd 1 new book')
 books_list.append('Madilog')
 for i in range(0, len(books_list)):
     print(books_list [i])
 
-# Mengganti Elemen dalam Data List
+# Menghapus Elemen dari Data List
 
-print('\nReplace second book')
+print('\nPop -1')
 books_list = ['Deadly 7 Sins','Atomic habits','Law of Power']
-books_list [1] = 'Micro habits'
-for i in range(len (books_list)):
+books_list.pop(-1)
+for i in range(0, len(books_list)):
+    print(books_list[i])
+
+print('\nPop -2')
+books_list = ['Deadly 7 Sins','Atomic habits','Law of Power']
+books_list.pop(-2)
+for i in range(0, len(books_list)):
     print(books_list[i])
