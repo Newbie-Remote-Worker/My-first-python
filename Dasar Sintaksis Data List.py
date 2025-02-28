@@ -103,7 +103,7 @@ print('Some books have been deleted')
 for i in range(0, len(books_list)):
     print(books_list[i])
 
-# Menghapus semua Elemen dari Data List (Delete Comperhension with Step)
+# Menghapus semua Elemen dari Data List dengan Step (Delete Comperhension with Step)
 
 print('\nDelete some book of using (Delete Comperhension with Step)')
 books_list = ['Deadly 7 Sins','Atomic habits','Law of Power','Raja Tempe','Madilog','Gerpolek']
