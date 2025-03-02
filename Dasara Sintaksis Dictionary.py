@@ -34,3 +34,4 @@ with open('Dasar Sintaksis Dictionary result.json', 'w') as file:
 
 
 
+
