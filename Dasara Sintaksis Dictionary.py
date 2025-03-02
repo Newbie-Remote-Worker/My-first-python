@@ -28,8 +28,8 @@ result = json.dumps(user)
 print(type(result))
 print(result)
 
-with open('result.json', 'w') as file:
-json.dump(user, file)
+with open('Dasar Sintaksis Dictionary result.json', 'w') as file:
+    json.dump(user, file)
 
 
 
