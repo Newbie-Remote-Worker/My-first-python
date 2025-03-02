@@ -8,10 +8,6 @@ user = {
         'street': 'jln. H. Misar',
         'city': 'Jakarta Timur',
         'zipcode': '13770',
-        'graphy': {
-            'lat': '-37.3159',
-            'long': '81.1490',
-        }
     }
 }
 
@@ -21,8 +17,20 @@ print(user['name'])
 print(user['username'])
 print(user['email'])
 print(user['pass'])
-print(user['address'])
+print(user['address']['street'])
 print(user['address']['city'])
-print(user['graphy']['long'])
+print(user['address']['zipcode'])
+print(type(user))
+
+print('\nChange Dictionary to JSON')
+import json
+result = json.dumps(user)
+print(type(result))
+print(result)
+
+with open('result.json', 'w') as file:
+json.dump(user, file)
+
+
 
 
